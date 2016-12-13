@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "RYMarqueeLabel"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "A UILabel with marquee effect"
   s.homepage     = "http://dreamwithroy.com"
   s.license      = "MIT"
