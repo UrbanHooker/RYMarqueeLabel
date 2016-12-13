@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0FBEA951DFEBB8E00A6E031 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FBEA941DFEBB8E00A6E031 /* main.m */; };
+		B0FBEA981DFEBB8E00A6E031 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FBEA971DFEBB8E00A6E031 /* AppDelegate.m */; };
+		B0FBEA9B1DFEBB8E00A6E031 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FBEA9A1DFEBB8E00A6E031 /* ViewController.m */; };
+		B0FBEA9E1DFEBB8E00A6E031 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0FBEA9C1DFEBB8E00A6E031 /* Main.storyboard */; };
+		B0FBEAA01DFEBB8E00A6E031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0FBEA9F1DFEBB8E00A6E031 /* Assets.xcassets */; };
+		B0FBEAA31DFEBB8E00A6E031 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0FBEAA11DFEBB8E00A6E031 /* LaunchScreen.storyboard */; };
+		B0FBEAAD1DFEBCF200A6E031 /* RYMarqueeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FBEAAC1DFEBCF200A6E031 /* RYMarqueeLabel.m */; };
+		B0FBEAB01DFEC6C700A6E031 /* RYAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FBEAAF1DFEC6C700A6E031 /* RYAnimator.m */; };
+		B0FBEAB41DFECA5E00A6E031 /* RYAnimationContext.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FBEAB31DFECA5E00A6E031 /* RYAnimationContext.m */; };
+		B0FBEAB71DFEDA0900A6E031 /* UILabel+RYMarquee.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FBEAB61DFEDA0900A6E031 /* UILabel+RYMarquee.m */; };
+		B0FBEABC1DFEF72500A6E031 /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FBEABB1DFEF72500A6E031 /* Queue.m */; };
+		B0FBEABF1DFF0B9A00A6E031 /* RYAnimationEffectKey.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FBEABE1DFF0B9A00A6E031 /* RYAnimationEffectKey.m */; };
+		B0FBEAC31DFFAD1600A6E031 /* UIView+RYMarquee.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FBEAC21DFFAD1600A6E031 /* UIView+RYMarquee.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B0FBEA901DFEBB8E00A6E031 /* RYMarqueeLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RYMarqueeLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0FBEA941DFEBB8E00A6E031 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0FBEA961DFEBB8E00A6E031 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0FBEA971DFEBB8E00A6E031 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0FBEA991DFEBB8E00A6E031 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B0FBEA9A1DFEBB8E00A6E031 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B0FBEA9D1DFEBB8E00A6E031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0FBEA9F1DFEBB8E00A6E031 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0FBEAA21DFEBB8E00A6E031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0FBEAA41DFEBB8E00A6E031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0FBEAAB1DFEBCF200A6E031 /* RYMarqueeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYMarqueeLabel.h; sourceTree = "<group>"; };
+		B0FBEAAC1DFEBCF200A6E031 /* RYMarqueeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYMarqueeLabel.m; sourceTree = "<group>"; };
+		B0FBEAAE1DFEC6C700A6E031 /* RYAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYAnimator.h; sourceTree = "<group>"; };
+		B0FBEAAF1DFEC6C700A6E031 /* RYAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYAnimator.m; sourceTree = "<group>"; };
+		B0FBEAB11DFEC7BC00A6E031 /* RYAnimationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYAnimationDelegate.h; sourceTree = "<group>"; };
+		B0FBEAB21DFECA5E00A6E031 /* RYAnimationContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYAnimationContext.h; sourceTree = "<group>"; };
+		B0FBEAB31DFECA5E00A6E031 /* RYAnimationContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYAnimationContext.m; sourceTree = "<group>"; };
+		B0FBEAB51DFEDA0900A6E031 /* UILabel+RYMarquee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+RYMarquee.h"; sourceTree = "<group>"; };
+		B0FBEAB61DFEDA0900A6E031 /* UILabel+RYMarquee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+RYMarquee.m"; sourceTree = "<group>"; };
+		B0FBEABA1DFEF72500A6E031 /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		B0FBEABB1DFEF72500A6E031 /* Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
+		B0FBEABD1DFF0B9A00A6E031 /* RYAnimationEffectKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYAnimationEffectKey.h; sourceTree = "<group>"; };
+		B0FBEABE1DFF0B9A00A6E031 /* RYAnimationEffectKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYAnimationEffectKey.m; sourceTree = "<group>"; };
+		B0FBEAC11DFFAD1600A6E031 /* UIView+RYMarquee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RYMarquee.h"; sourceTree = "<group>"; };
+		B0FBEAC21DFFAD1600A6E031 /* UIView+RYMarquee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RYMarquee.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0FBEA8D1DFEBB8E00A6E031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0FBEA871DFEBB8E00A6E031 = {
+			isa = PBXGroup;
+			children = (
+				B0FBEAAA1DFEBCD400A6E031 /* RYMarqueeLabel */,
+				B0FBEA921DFEBB8E00A6E031 /* RYMarqueeLabelDemo */,
+				B0FBEA911DFEBB8E00A6E031 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0FBEA911DFEBB8E00A6E031 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0FBEA901DFEBB8E00A6E031 /* RYMarqueeLabelDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0FBEA921DFEBB8E00A6E031 /* RYMarqueeLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B0FBEA961DFEBB8E00A6E031 /* AppDelegate.h */,
+				B0FBEA971DFEBB8E00A6E031 /* AppDelegate.m */,
+				B0FBEA991DFEBB8E00A6E031 /* ViewController.h */,
+				B0FBEA9A1DFEBB8E00A6E031 /* ViewController.m */,
+				B0FBEA9C1DFEBB8E00A6E031 /* Main.storyboard */,
+				B0FBEA9F1DFEBB8E00A6E031 /* Assets.xcassets */,
+				B0FBEAA11DFEBB8E00A6E031 /* LaunchScreen.storyboard */,
+				B0FBEAA41DFEBB8E00A6E031 /* Info.plist */,
+				B0FBEA931DFEBB8E00A6E031 /* Supporting Files */,
+			);
+			path = RYMarqueeLabelDemo;
+			sourceTree = "<group>";
+		};
+		B0FBEA931DFEBB8E00A6E031 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0FBEA941DFEBB8E00A6E031 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0FBEAAA1DFEBCD400A6E031 /* RYMarqueeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				B0FBEAC01DFFACF800A6E031 /* Utils */,
+				B0FBEAC51DFFADA200A6E031 /* RYMarqueeAnimator */,
+				B0FBEAC41DFFAD8900A6E031 /* RYMarqueeLabel */,
+			);
+			name = RYMarqueeLabel;
+			path = ../RYMarqueeLabel;
+			sourceTree = "<group>";
+		};
+		B0FBEAC01DFFACF800A6E031 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B0FBEABA1DFEF72500A6E031 /* Queue.h */,
+				B0FBEABB1DFEF72500A6E031 /* Queue.m */,
+				B0FBEAB51DFEDA0900A6E031 /* UILabel+RYMarquee.h */,
+				B0FBEAB61DFEDA0900A6E031 /* UILabel+RYMarquee.m */,
+				B0FBEAC11DFFAD1600A6E031 /* UIView+RYMarquee.h */,
+				B0FBEAC21DFFAD1600A6E031 /* UIView+RYMarquee.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		B0FBEAC41DFFAD8900A6E031 /* RYMarqueeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				B0FBEAAB1DFEBCF200A6E031 /* RYMarqueeLabel.h */,
+				B0FBEAAC1DFEBCF200A6E031 /* RYMarqueeLabel.m */,
+				B0FBEABD1DFF0B9A00A6E031 /* RYAnimationEffectKey.h */,
+				B0FBEABE1DFF0B9A00A6E031 /* RYAnimationEffectKey.m */,
+			);
+			name = RYMarqueeLabel;
+			sourceTree = "<group>";
+		};
+		B0FBEAC51DFFADA200A6E031 /* RYMarqueeAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				B0FBEAB11DFEC7BC00A6E031 /* RYAnimationDelegate.h */,
+				B0FBEAAE1DFEC6C700A6E031 /* RYAnimator.h */,
+				B0FBEAAF1DFEC6C700A6E031 /* RYAnimator.m */,
+				B0FBEAB21DFECA5E00A6E031 /* RYAnimationContext.h */,
+				B0FBEAB31DFECA5E00A6E031 /* RYAnimationContext.m */,
+			);
+			name = RYMarqueeAnimator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0FBEA8F1DFEBB8E00A6E031 /* RYMarqueeLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0FBEAA71DFEBB8E00A6E031 /* Build configuration list for PBXNativeTarget "RYMarqueeLabelDemo" */;
+			buildPhases = (
+				B0FBEA8C1DFEBB8E00A6E031 /* Sources */,
+				B0FBEA8D1DFEBB8E00A6E031 /* Frameworks */,
+				B0FBEA8E1DFEBB8E00A6E031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RYMarqueeLabelDemo;
+			productName = RYMarqueeLabelDemo;
+			productReference = B0FBEA901DFEBB8E00A6E031 /* RYMarqueeLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0FBEA881DFEBB8E00A6E031 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Roy Miller";
+				TargetAttributes = {
+					B0FBEA8F1DFEBB8E00A6E031 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B0FBEA8B1DFEBB8E00A6E031 /* Build configuration list for PBXProject "RYMarqueeLabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0FBEA871DFEBB8E00A6E031;
+			productRefGroup = B0FBEA911DFEBB8E00A6E031 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0FBEA8F1DFEBB8E00A6E031 /* RYMarqueeLabelDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0FBEA8E1DFEBB8E00A6E031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FBEAA31DFEBB8E00A6E031 /* LaunchScreen.storyboard in Resources */,
+				B0FBEAA01DFEBB8E00A6E031 /* Assets.xcassets in Resources */,
+				B0FBEA9E1DFEBB8E00A6E031 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0FBEA8C1DFEBB8E00A6E031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FBEA9B1DFEBB8E00A6E031 /* ViewController.m in Sources */,
+				B0FBEA981DFEBB8E00A6E031 /* AppDelegate.m in Sources */,
+				B0FBEAC31DFFAD1600A6E031 /* UIView+RYMarquee.m in Sources */,
+				B0FBEABF1DFF0B9A00A6E031 /* RYAnimationEffectKey.m in Sources */,
+				B0FBEAAD1DFEBCF200A6E031 /* RYMarqueeLabel.m in Sources */,
+				B0FBEABC1DFEF72500A6E031 /* Queue.m in Sources */,
+				B0FBEAB01DFEC6C700A6E031 /* RYAnimator.m in Sources */,
+				B0FBEA951DFEBB8E00A6E031 /* main.m in Sources */,
+				B0FBEAB41DFECA5E00A6E031 /* RYAnimationContext.m in Sources */,
+				B0FBEAB71DFEDA0900A6E031 /* UILabel+RYMarquee.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0FBEA9C1DFEBB8E00A6E031 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0FBEA9D1DFEBB8E00A6E031 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0FBEAA11DFEBB8E00A6E031 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0FBEAA21DFEBB8E00A6E031 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0FBEAA51DFEBB8E00A6E031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0FBEAA61DFEBB8E00A6E031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0FBEAA81DFEBB8E00A6E031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RYMarqueeLabelDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dreamwithroy.RYMarqueeLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B0FBEAA91DFEBB8E00A6E031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RYMarqueeLabelDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dreamwithroy.RYMarqueeLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0FBEA8B1DFEBB8E00A6E031 /* Build configuration list for PBXProject "RYMarqueeLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0FBEAA51DFEBB8E00A6E031 /* Debug */,
+				B0FBEAA61DFEBB8E00A6E031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0FBEAA71DFEBB8E00A6E031 /* Build configuration list for PBXNativeTarget "RYMarqueeLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0FBEAA81DFEBB8E00A6E031 /* Debug */,
+				B0FBEAA91DFEBB8E00A6E031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0FBEA881DFEBB8E00A6E031 /* Project object */;
+}
