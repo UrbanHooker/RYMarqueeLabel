@@ -24,7 +24,7 @@ A UILabel with marquee effect
 If you want to know more details, please reference to the demo :]
 
 ```objective-c
-#import "RYSunRefreshControl.h"
+#import "RYMarqueeLabel.h"
 
 @property (nonatomic, strong) RYMarqueeLabel *label;
 
