@@ -56,7 +56,7 @@ If you want to know more details, please reference to the demo :]
 	 // if you want to change the default animation effect
 	 _label.effect = kBottomToTop;
     
-    return _sunRefreshControl;
+    return _label;
 }
 
 ```
