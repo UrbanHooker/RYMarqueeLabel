@@ -187,7 +187,7 @@
 
 #pragma mark - Description
 - (NSString *)description {
-    return [NSString stringWithFormat:@"<texts>:%@   <enableLoop>:%@   <displaiedDuration>:%f  <animationDuration>:%f   <effect>:%@   <text>:%@   <font>:%@   <attributedText>:%@   <numberOfLines>:%ld", _texts, _enableLoop == YES ? @"YES" : @"NO", _displaiedDuration, _animationDuration, _effect, _text, _font, _attributedText, _numberOfLines];
+    return [NSString stringWithFormat:@"<texts>:%@   <enableLoop>:%@   <displaiedDuration>:%f  <animationDuration>:%f   <effect>:%@   <text>:%@   <font>:%@   <attributedText>:%@", _texts, _enableLoop == YES ? @"YES" : @"NO", _displaiedDuration, _animationDuration, _effect, _text, _font, _attributedText];
 }
 
 @end
