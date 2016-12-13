@@ -6,6 +6,8 @@
 
 A UILabel with marquee effect
 
+![label](https://github.com/UrbanHooker/RYMarqueeLabel/blob/master/RYMarqueeLabelDemo/RYMarqueeLabelDemo/demo.gif?raw=true)
+
 #Installing
 ##CocoaPods
 1. Add `pod 'RYMarqueeLabel'` to your Podfile.
